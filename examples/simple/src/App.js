@@ -3,7 +3,7 @@ import { ApolloClient } from 'apollo-client';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import { ApolloProvider } from 'react-apollo';
 import { RestLink } from 'apollo-link-rest';
-import Person from './Person';
+import Film from "./Film";
 import './App.css';
 
 const restLink = new RestLink({
@@ -22,7 +22,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Welcome to Apollo Rest Link Example</h1>
         </header>
-        <Person />
+        <Film />
       </div>
     );
   }

@@ -13,7 +13,8 @@
     "react": "16.x",
     "react-apollo": "2.x",
     "react-dom": "16.x",
-    "react-scripts": "1.x"
+    "react-scripts": "1.x",
+    "date-fns": "2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
